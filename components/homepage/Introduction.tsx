@@ -1,7 +1,7 @@
 // "use client";
 import React from "react";
 import { Button } from "../ui/button";
-import Writer from "./Writer";
+import Writer from "../Writer";
 
 const Introduction = () => {
   // const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
