@@ -9,7 +9,7 @@ const NavbarLinks = [
 ];
 const NavBar = () => {
   return (
-    <nav className="flex items-center justify-between p-5">
+    <nav className="flex fixed items-center justify-between w-full p-5">
       <Link href="/">
         <Image src="/logo-black.png" width={50} height={50} alt="Logo"></Image>
       </Link>
