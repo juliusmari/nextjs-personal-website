@@ -3,8 +3,6 @@ import React from "react";
 import { Button } from "../ui/button";
 import Writer from "../Writer";
 
-import "react-awesome-button/dist/styles.css";
-
 const Introduction = () => {
   return (
     <div className="h-screen w-full flex items-center justify-center ">
