@@ -2,7 +2,7 @@ import Introduction from "@/components/homepage/Introduction";
 
 export default function Home() {
   return (
-    <main>
+    <main className=" dark:bg-[#1F1F1F]">
       <Introduction />
     </main>
   );

@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { Button } from "../ui/button";
 import Writer from "../Writer";
@@ -20,14 +19,14 @@ const Introduction = () => {
           ></model-viewer>
         </div>
         <div className="flex flex-col justify-center">
-          <p className="text-2xl font-black">Hi! I'm </p>
-          <h1 className="font-black text-8xl tracking-wide break-keep">
+          <p className="text-2xl font-black dark:text-lightText">Hi! I'm </p>
+          <h1 className="font-black text-8xl tracking-wide break-keep dark:text-lightText">
             Julius Chan
           </h1>
-          <p className="h-[12px] text-2xl font-bold">
+          <p className="h-[12px] text-2xl font-bold dark:text-red-600">
             <Writer />
           </p>
-          <Button className="w-fit bg-transparent mt-9 text-zinc-800 border-zinc-800 border-2 font-bold hover:text-white hover:bg-zinc-800 text-lg py-6">
+          <Button className="w-fit bg-transparent mt-9 text-zinc-800 dark:text-lightText border-zinc-800 border-2 font-bold hover:text-white hover:bg-zinc-800 text-lg py-6">
             Portfolio
           </Button>
         </div>

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Lato } from "next/font/google";
+import { Libre_Franklin } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Script from "next/script";
 
-const openSans = Lato({
+const openSans = Libre_Franklin({
   weight: "400",
   style: "normal",
   display: "swap",
