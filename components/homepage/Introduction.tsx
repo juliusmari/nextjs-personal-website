@@ -23,10 +23,10 @@ const Introduction = () => {
           <h1 className="font-black text-8xl tracking-wide break-keep dark:text-lightText">
             Julius Chan
           </h1>
-          <p className="h-[12px] text-2xl font-bold dark:text-red-600">
+          <p className="h-[12px] text-2xl font-bold dark:italic dark:text-red-600">
             <Writer />
           </p>
-          <Button className="w-fit bg-transparent mt-9 text-zinc-800 dark:text-lightText border-zinc-800 border-2 font-bold hover:text-white hover:bg-zinc-800 text-lg py-6">
+          <Button className="w-fit bg-transparent mt-9 text-zinc-800  border-zinc-800  border-2 font-bold hover:text-white hover:bg-zinc-800 text-lg py-6 dark:text-lightText dark:border-lightText dark:hover:bg-lightText dark:hover:text-zinc-800">
             Portfolio
           </Button>
         </div>

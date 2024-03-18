@@ -10,9 +10,16 @@ const NavbarLinks = [
 ];
 const NavBar = () => {
   return (
-    <nav className="flex fixed items-center justify-between w-full p-5">
+    <nav className="flex fixed items-center justify-between w-full p-5 px-24">
       <Link href="/">
-        <Image src="/logo-black.png" width={50} height={50} alt="Logo"></Image>
+        <Image
+          src="/test.svg"
+          className="text-white"
+          width={50}
+          style={{ fill: "#ffffff" }}
+          height={50}
+          alt="Logo"
+        ></Image>
       </Link>
       <ul className="space-x-7 flex items-center">
         {NavbarLinks.map((link) => (
@@ -24,8 +31,8 @@ const NavBar = () => {
             {link.label}
           </Link>
         ))}
-        <ThemeToggle></ThemeToggle>
       </ul>
+      <ThemeToggle></ThemeToggle>
     </nav>
   );
 };
